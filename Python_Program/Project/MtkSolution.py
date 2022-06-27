@@ -18,7 +18,7 @@ def pengurangan():
     nilai1 = int(input("masukan nilai pertama: "))
     nilai2 = int(input("masukan nilai kedua  : "))
     hasil = nilai1 - nilai2
-    print("hasil dari", nilai1, ' - ', nilai2, "   :", hasil)
+    print("hasil dari", nilai1, ' - ', nilai2, "  :", hasil)
     print("")
     print("===============================================================================")
     print("")
@@ -30,7 +30,7 @@ def perkalian():
     nilai1 = int(input("masukan nilai pertama: "))
     nilai2 = int(input("masukan nilai kedua  : "))
     hasil = nilai1 * nilai2
-    print("hasil dari", nilai1, ' x ', nilai2, "   :", hasil)
+    print("hasil dari", nilai1, ' x ', nilai2, "  :", hasil)
     print("")
     print("===============================================================================")
     print("")
@@ -42,7 +42,7 @@ def pembagian():
     nilai1 = int(input("masukan nilai pertama: "))
     nilai2 = int(input("masukan nilai kedua  : "))
     hasil = nilai1 / nilai2
-    print("hasil dari", nilai1, ' : ', nilai2, "   :", hasil)
+    print("hasil dari", nilai1, ' : ', nilai2, "  :", hasil)
     print("")
     print("===============================================================================")
     print("")
@@ -54,10 +54,11 @@ def volumeBalok():
     panjang = int(input("masukan panjang\t\t: "))
     lebar = int(input("masukan lebar\t\t: "))
     tinggi = int(input("masukan tinggi\t\t: "))
-    hasil = panjang*lebar*tinggi
-    print("Volume Balok adalah\t:", hasil)
+    volumebalok = panjang*lebar*tinggi
+    print("Volume Balok adalah\t:", volumebalok)
     print("===============================================================================")
     print("")
+
 
 def luasBalok():
     print("============================= Program Volume Balok 😝 ============================")
@@ -65,8 +66,8 @@ def luasBalok():
     panjang = int(input("masukan panjang\t\t: "))
     lebar = int(input("masukan lebar\t\t: "))
     tinggi = int(input("masukan tinggi\t\t: "))
-    hasil = (2*panjang*lebar)* (2*panjang*tinggi) * (2*lebar*tinggi)
-    print("Luas Balok adalah\t:", hasil)
+    luasbalok = (2*panjang*lebar) * (2*panjang*tinggi) * (2*lebar*tinggi)
+    print("Luas Balok adalah\t:", luasbalok)
     print("===============================================================================")
     print("")
 
@@ -76,8 +77,8 @@ def luasSegitiga():
     print("")
     alas = float(input("masukan alas\t\t: "))
     tinggi = float(input("masukan tinggi\t\t: "))
-    hasil = 0.5 * (alas * tinggi)
-    print("Luas Segitiga adalah\t:", hasil)
+    luassegitiga = 0.5 * (alas * tinggi)
+    print("Luas Segitiga adalah\t:", luassegitiga)
     print("===============================================================================")
     print("")
 
@@ -85,42 +86,33 @@ def luasSegitiga():
 def luasBola():
     print("============================= Program Luas Bola 😎 ===========================")
     print("")
-    r = float(input("masukan jari-jari\t\t: "))
-    hasil = 4 * 3.14 * (r**2)
-    print("Luas Bola adalah\t:", hasil)
+    r = float(input("masukan jari-jari\t: "))
+    luasbola = 4 * 3.14 * (r**2)
+    print("Luas Bola adalah\t:", luasbola)
     print("===============================================================================")
     print("")
+
 
 def hitungKecepatan():
     print("============================= Program Hitung Kecepatan 😎 ===========================")
     print("")
     jarak = float(input("masukan jarak\t\t: "))
     waktu = float(input("masukan waktu\t\t: "))
-    hasil = jarak * waktu
-    print("Kecepatan adalah\t:", hasil)
+    kecepatan = jarak * waktu
+    print("Kecepatan adalah\t:", kecepatan)
     print("===============================================================================")
     print("")
+
 
 def volumeKubus():
     print("============================= Program Hitung Kubus 😎 ===========================")
     print("")
-    jarak = float(input("masukan panjang\t\t: "))
-    waktu = float(input("masukan lebar\t\t: "))
-    hasil = jarak * waktu
+    sisi = float(input("masukan sisi\t\t: "))
+    hasil = sisi * sisi * sisi
     print("Luas Kubus adalah\t:", hasil)
     print("===============================================================================")
     print("")
 
-# Testing Function
-# penjumlahan()
-# pengurangan()
-# perkalian()
-# pembagian()
-# volumeBalok()
-# luasBalok()
-# luasSegitiga()
-# luasBola()
-# hitungKecepatan()
 
 while True:
     print("============================= Program MtkSolution =============================")
@@ -154,3 +146,6 @@ while True:
         print("")
         print("Anda Telah Keluar dari program")
         break
+
+
+# @fdlml_
