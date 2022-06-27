@@ -104,6 +104,8 @@ while True:
         pengurangan()
     elif(inputProgram == 3) :
         perkalian()
+    elif(inputProgram == 4) :
+        pembagian()
     else :
         print("")
         print("Anda Telah Keluar dari program")
