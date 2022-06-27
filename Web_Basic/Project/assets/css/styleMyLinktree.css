@@ -6,6 +6,11 @@
     /* background-color: #2f3640; */
 }
 
+.cover{
+    background-size: cover;
+    background-color: #2f3640;
+}
+
 .container
 {
     
@@ -20,7 +25,7 @@
 }
 
 .profile{
-    padding-top: 30px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,32 +41,58 @@
 }
 
 .profile > span{
-    padding-top: 20px;
-    display: flex;
-    flex-direction: row;
+    margin-top: 40px;
+    letter-spacing: 4px;
     color: white;
-    font-size: 28px;
-    font-weight: 900;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
     font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    border: 3px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .content{
-    padding-top: 30px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.content > button {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.content > a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    border: 2px solid #2f3640;
+    border-radius: 20px;
+    padding: auto;
+    padding-top: 8px;
+    color: #2f3640;
+    font-weight: bold;
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content > a:hover {
+    background-color: #dcdde1;
 }
 
 .copyRight{
-    width: 200px;
-    height: 200px;
-    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 
@@ -69,3 +100,4 @@
 span{
     text-decoration: none;
 }
+
