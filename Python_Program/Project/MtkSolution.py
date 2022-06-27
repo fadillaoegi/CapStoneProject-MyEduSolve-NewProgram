@@ -65,7 +65,7 @@ def luasBalok():
     panjang = int(input("masukan panjang\t\t: "))
     lebar = int(input("masukan lebar\t\t: "))
     tinggi = int(input("masukan tinggi\t\t: "))
-    hasil = panjang*lebar*tinggi
+    hasil = (2*panjang*lebar)* (2*panjang*tinggi) * (2*lebar*tinggi)
     print("Luas Balok adalah\t:", hasil)
     print("===============================================================================")
     print("")
@@ -74,8 +74,8 @@ def luasBalok():
 def luasSegitiga():
     print("============================= Program Luas Segitga 😃 ============================")
     print("")
-    alas = float(input("masukan panjang\t\t: "))
-    tinggi = float(input("masukan lebar\t\t: "))
+    alas = float(input("masukan alas\t\t: "))
+    tinggi = float(input("masukan tinggi\t\t: "))
     hasil = 0.5 * (alas * tinggi)
     print("Luas Segitiga adalah\t:", hasil)
     print("===============================================================================")
@@ -85,8 +85,8 @@ def luasSegitiga():
 def luasBola():
     print("============================= Program Luas Bola 😎 ===========================")
     print("")
-    jarijari = float(input("masukan panjang\t\t: "))
-    hasil = 4 * 3.14 * (jarijari**2)
+    r = float(input("masukan jari-jari\t\t: "))
+    hasil = 4 * 3.14 * (r**2)
     print("Luas Bola adalah\t:", hasil)
     print("===============================================================================")
     print("")
@@ -94,10 +94,20 @@ def luasBola():
 def hitungKecepatan():
     print("============================= Program Hitung Kecepatan 😎 ===========================")
     print("")
+    jarak = float(input("masukan jarak\t\t: "))
+    waktu = float(input("masukan waktu\t\t: "))
+    hasil = jarak * waktu
+    print("Kecepatan adalah\t:", hasil)
+    print("===============================================================================")
+    print("")
+
+def volumeKubus():
+    print("============================= Program Hitung Kubus 😎 ===========================")
+    print("")
     jarak = float(input("masukan panjang\t\t: "))
     waktu = float(input("masukan lebar\t\t: "))
     hasil = jarak * waktu
-    print("Kecepatan adalah\t:", hasil)
+    print("Luas Kubus adalah\t:", hasil)
     print("===============================================================================")
     print("")
 
@@ -109,13 +119,13 @@ def hitungKecepatan():
 # volumeBalok()
 # luasBalok()
 # luasSegitiga()
-luasBola()
+# luasBola()
 # hitungKecepatan()
 
 while True:
     print("============================= Program MtkSolution =============================")
     print("")
-    print("1. Penjumlahan\n2. Pengurangan\n3. Perkalian\n4. Pembagian\n5. Volume Balok\n6. Luas Balok\n7. Luas Segitiga\n8. Luas Bola\n9. Luas Kubus\n\n0. keluar program")
+    print("1. Penjumlahan\n2. Pengurangan\n3. Perkalian\n4. Pembagian\n5. Volume Balok\n6. Luas Balok\n7. Luas Segitiga\n8. Luas Bola\n9. Luas Kubus\n10. Hitung Kecepatan\n\n0. keluar program")
     print("")
     inputProgram = int(input("Masukan nomer program : "))
     print("===============================================================================")
@@ -134,6 +144,12 @@ while True:
         luasBalok()
     elif(inputProgram == 7) :
         luasSegitiga()
+    elif(inputProgram == 8) :
+        luasBola()
+    elif(inputProgram == 9) :
+        volumeKubus()
+    elif(inputProgram == 10) :
+        hitungKecepatan()
     else :
         print("")
         print("Anda Telah Keluar dari program")
