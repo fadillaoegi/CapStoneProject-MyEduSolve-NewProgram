@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-image: url('../img/bgkillua.jpeg'); */
+    background-size: cover;
+    /* background-color: #2f3640; */
+}
+
+.container
+{
+    
+    max-width: 500px;
+    margin: 0 auto;
+    width: auto;
+    height: 100vh;
+    background-image: url('../img/killua3.png');
+    background-color: #2f3640;
+    background-position: center;
+    background-size: cover;
+}
+
+.profile{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.profile > img{
+    width: 150px;
+    height: 150px;
+    border: solid;
+    border-radius: 100%;
+}
+
+.profile > span{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content > button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copyRight{
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+}
+
+
+
+span{
+    text-decoration: none;
+}
