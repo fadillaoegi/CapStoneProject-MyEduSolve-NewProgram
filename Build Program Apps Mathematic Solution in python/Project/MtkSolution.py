@@ -61,7 +61,7 @@ def volumeBalok():
 
 
 def luasBalok():
-    print("============================= Program Volume Balok 😝 ============================")
+    print("============================= Program Luas Balok 😝 ============================")
     print("")
     panjang = int(input("masukan panjang\t\t: "))
     lebar = int(input("masukan lebar\t\t: "))
