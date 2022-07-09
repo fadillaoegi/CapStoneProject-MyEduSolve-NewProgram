@@ -9,6 +9,7 @@
 .cover{
     background-size: cover;
     background-color: #2f3640;
+    /* background-color: rgba(99, 92, 238, 0.3); */
 }
 
 .container
@@ -18,8 +19,8 @@
     margin: 0 auto;
     width: auto;
     height: 100vh;
-    background-image: url('../img/killua3.png');
-    background-color: #2f3640;
+    /* background-image: url('../img/killua3.png'); */
+    /* background-color: rgba(99, 92, 238, 0.3); */
     background-position: center;
     background-size: cover;
 }
@@ -36,7 +37,7 @@
 .profile > img{
     width: 150px;
     height: 150px;
-    border: solid;
+    border: solid white;
     border-radius: 100%;
 }
 
@@ -49,7 +50,7 @@
     text-transform: capitalize;
     font-family: 'Courier New', Courier, monospace;
     /* text-decoration: underline; */
-    border: 3px solid white;
+    /* border: 3px solid white; */
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -70,34 +71,38 @@
     text-align: center;
     width: 400px;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     text-decoration: none;
     font-size: 22px;
-    border: 2px solid #2f3640;
+    border: 2px solid white;
     border-radius: 20px;
     padding: auto;
     padding-top: 8px;
-    color: #2f3640;
+    color: white;
     font-weight: bold;
-    background-color: aliceblue;
+    /* background-color: rgba(99, 92, 238, 0.3); */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .content > a:hover {
     background-color: #dcdde1;
+    color: #2f3640;
 }
 
 .copyRight{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    color: #dcdde1;
 }
 
 
 
 span{
+    
     text-decoration: none;
 }
 
