@@ -122,30 +122,37 @@ while True:
     inputProgram = int(input("Masukan nomer program : "))
     print("===============================================================================")
 
-    if(inputProgram == 1) :
+    if(inputProgram == 1):
         penjumlahan()
-    elif(inputProgram == 2) :
+    elif(inputProgram == 2):
         pengurangan()
-    elif(inputProgram == 3) :
+    elif(inputProgram == 3):
         perkalian()
-    elif(inputProgram == 4) :
+    elif(inputProgram == 4):
         pembagian()
-    elif(inputProgram == 5) :
+    elif(inputProgram == 5):
         volumeBalok()
-    elif(inputProgram == 6) :
+    elif(inputProgram == 6):
         luasBalok()
-    elif(inputProgram == 7) :
+    elif(inputProgram == 7):
         luasSegitiga()
-    elif(inputProgram == 8) :
+    elif(inputProgram == 8):
         luasBola()
-    elif(inputProgram == 9) :
+    elif(inputProgram == 9):
         volumeKubus()
-    elif(inputProgram == 10) :
+    elif(inputProgram == 10):
         hitungKecepatan()
-    else :
+    else:
         print("")
         print("Anda Telah Keluar dari program")
         break
+
+# import turtle
+
+# t =  turtle.pen()
+# for x in range(100):
+#     t.forward(x)
+#     t.left(90)
 
 
 # @fdlml_ copyRight
